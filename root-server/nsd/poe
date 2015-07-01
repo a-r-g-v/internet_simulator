@@ -1,0 +1,11 @@
+$ORIGIN poe.
+$TTL 86400
+;meta
+poe. 86400 IN SOA a.poe. info.thun.ws. 2015021805 3600 900 604800 300
+poe. 86400 IN NS a.poe.
+a.poe. 86400 IN A 192.168.203.93
+test.poe. 86400 IN A 1.1.1.1
+
+mail.poe. 86400 IN NS ns.mail.poe.
+ns.mail.poe. 86400 IN A 192.168.203.182
+
